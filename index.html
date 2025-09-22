@@ -4,17 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NovaSaaS</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header>
-      <h1>NovaSaaS</h1>
-        <nav>
-            <ul>
+    <header class="header">
+      <nav class="nav">
+        <div class="nav-inner">
+          <ul class="nav-left">
             <li><a href="#">Home</a></li>
-            <li><a href="#">Features</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Contact</a></li>
-            </ul>
+            <li><a href="#features">Features</a></li>
+          </ul>
+
+          <h1 class="brand">NovaSaaS</h1>
+
+          <ul class="nav-right">
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
+    <main>
+      <section id="hero">
+        <h2>Your Ultimate SaaS Solution</h2>
+        <p>Essayez gratuitement</p>
+      </section>
+      <section id="features">
+        <h2>Features</h2>
+        <ul>
+          <li>Feature 1: Description of feature 1.</li>
+          <li>Feature 2: Description of feature 2.</li>
+          <li>Feature 3: Description of feature 3.</li>
+        </ul>
+      </section>
+      <section id="pricing">
+        <h2>Pricing</h2>
+        <p>Choose a plan that fits your needs.</p>
+      </section>
+      <footer>
+        <p>&copy; 2024 NovaSaaS. All rights reserved.</p>
+      </footer>
+    </main>
   </body>
 </html>
